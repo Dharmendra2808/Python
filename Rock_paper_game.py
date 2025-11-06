@@ -1,4 +1,18 @@
 import random
+game_console=''' 
+/        _____________        \  
+| == .  |             |     o |  
+|   _   |             |    B  |  
+|  / \  |             | A   O |  
+| | O | |             |  O    |  
+|  \_/  |             |       |  
+|       |             | . . . |  
+|  :::  |             | . . . |  
+|  :::  |_____________| . . . |  
+|           S N K             |  
+\_____________________________/
+'''
+print(game_console)
 print("Let's Play Bro")
 user=input("Enter your input in game ")
 computer_choice=random.choice(["Rock","Scissor","Paper"])
@@ -20,4 +34,5 @@ elif user=="Paper":
     if computer_choice=="Rock":
         print("Paper Fold rock ,User wins")
     else:
+
         print("Computer wins")
